@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background: linear-gradient(to top, #AED4DA ,#9BB6BB , #9DD1D8  ) ;
+}
+.menu a:hover{
+    background-color: gainsboro;
+}
+
+div a {
+    border-right: gainsboro solid 1px;
+    padding-right: 15px;
+    margin-left: 10px;
+    text-decoration:none; 
+    color: white;
+}
+
+.links-menu{
+    font-size: 20px;
+}
+
+
+.pesquisar{
+    font-size: 20px; 
+    width:300px
+}
+
+.local-pesquisar, .botao {
+    padding:5px;
+    border-radius:5px solid;
+}
+
+.gif1{
+    width:100%;
+}
+
+.footer{
+    padding:20px;
+    text-align: center;
+    background: linear-gradient(to top, #AED4DA ,#9BB6BB , #9DD1D8  ) ;
+    color:rgb(92, 91, 91);
+}
+
+.icone-inicial{
+    margin-left: 50%;
+}
+.icones{
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 10px;
+    color:white;
+}
+
+.nomes{
+    margin-top:25px;
+}
+
+.booking{
+    margin-top:15px;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(92, 91, 91);
+}
+
+/* inicio do css Resteurante e aconidações */
+.text{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 80px;
+    padding: 20px 0;
+}
+
+
+.content{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: #c7f8ff ;
+    align-items: center;
+    flex-direction: row;
+    margin: 4px 0px;
+}
+
+.img{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0px 30px;
+ }
+
+/* final do css */
+
+.rodape {
+    margin-top: 10px;
+}
+
+.rodape-logo img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.rodapePrincipal{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+.rodape-redes-sociais{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.rodape-redes-sociais a{
+    background-color:#252525;
+    border-radius: 50px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rodape-redes-sociais img {
+    float: left;
+    margin-left: 10px;
+}
+
+.rodape-cc{
+    width: 100%;
+    height:20px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
